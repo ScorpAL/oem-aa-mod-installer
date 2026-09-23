@@ -16,15 +16,15 @@ Releases are built automatically whenever a new upstream version is published. D
 
 1. Extract the zip and copy all files to the **root directory** of your flash drive.
 
-2. Safely eject the drive and plug it into your Mazda.
+1. Safely eject the drive and plug it into your Mazda.
 
-3. Plug keyboard in secondary USB port of your Mazda
+1. Plug keyboard in secondary USB port of your Mazda
 
-4. In the car, navigate to the **Entertainment** menu and select the **USB Drive**.
+1. In the car, navigate to the **Entertainment** menu and select the **USB Drive**.
 
-5. Wait a couple of seconds — the diagnostic menu should launch automatically.
+1. Wait a couple of seconds — the diagnostic menu should launch automatically.
 
-6. In the diagnostic menu, open a terminal (click 'Next', then 'Terminal') and run:
+1. In the diagnostic menu, open a terminal (click 'Next', then 'Terminal') and run:
 
    ```sh
    cd /tmp/mnt/sda1
@@ -32,13 +32,13 @@ Releases are built automatically whenever a new upstream version is published. D
 
    > If nothing happens, try `cd /tmp/mnt/sdb1` instead — this depends on which USB port you used.
 
-7. Run the script:
+1. Run the script:
 
    ```sh
    sh run.sh
    ```
 
-8. Follow the on-screen prompts to install or uninstall. Once complete, reboot the head unit.
+1. Follow the on-screen prompts to install or uninstall. Once complete, reboot the head unit.
 
 ## Credits
 
