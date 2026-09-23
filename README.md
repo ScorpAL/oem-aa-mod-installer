@@ -8,7 +8,9 @@ Releases are built automatically whenever a new upstream version is published. D
 
 ## Requirements
 
+- Firmware version **74.00.324**
 - USB flash drive **32 GB or smaller**, formatted as **FAT32**
+- USB keyboard
 
 ## Installation / Uninstallation
 
@@ -16,11 +18,13 @@ Releases are built automatically whenever a new upstream version is published. D
 
 2. Safely eject the drive and plug it into your Mazda.
 
-3. In the car, navigate to the **Entertainment** menu and select the **USB Drive**.
+3. Plug keyboard in secondary USB port of your Mazda
 
-4. Wait a couple of seconds — the diagnostic menu should launch automatically.
+4. In the car, navigate to the **Entertainment** menu and select the **USB Drive**.
 
-5. In the diagnostic menu, open a terminal (click 'Next', then 'Terminal') and run:
+5. Wait a couple of seconds — the diagnostic menu should launch automatically.
+
+6. In the diagnostic menu, open a terminal (click 'Next', then 'Terminal') and run:
 
    ```sh
    cd /tmp/mnt/sda1
@@ -28,13 +32,13 @@ Releases are built automatically whenever a new upstream version is published. D
 
    > If nothing happens, try `cd /tmp/mnt/sdb1` instead — this depends on which USB port you used.
 
-6. Run the script:
+7. Run the script:
 
    ```sh
    sh run.sh
    ```
 
-7. Follow the on-screen prompts to install or uninstall. Once complete, reboot the head unit.
+8. Follow the on-screen prompts to install or uninstall. Once complete, reboot the head unit.
 
 ## Credits
 
